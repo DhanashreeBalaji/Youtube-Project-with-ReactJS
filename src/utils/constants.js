@@ -1,7 +1,7 @@
-const GOOGLE_APIKEY = "AIzaSyDXDPLmn7IUjatywQSGZ-HwNN225_zDgUo"
+const googleapikey = process.env.REACT_APP_GOOGLEAPIKEY ;
 
 export const YOUTUBE_API = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key="
-+ GOOGLE_APIKEY;
++ googleapikey;
 
 export const YOUTUBE_SEARCH_API = "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q="
 
